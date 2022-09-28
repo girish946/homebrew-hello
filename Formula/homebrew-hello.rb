@@ -6,7 +6,7 @@ class HomebrewHello < Formula
   license ""
 
   def install
-    bin.install hello    
+    bin.install "hello"
   end
 
   test do
